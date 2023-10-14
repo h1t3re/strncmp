@@ -1,7 +1,7 @@
 int strncmp(long unsigned int size, const char *str1, const char *str2)
 {
 	int i = 0;
-	while(i < (32*size))
+	while(i < (size*32))
 	{
 		if(*(&str1) != *(&str2))
 			return 1;
